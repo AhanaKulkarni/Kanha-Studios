@@ -14,12 +14,12 @@ const Home = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="hero-animation">
-          <p className="sanskrit-quote text-sm mb-4">"सर्वं खल्विदं ब्रह्म" - All is Divine</p>
+          <p className="sanskrit-quote text-sm mb-4">"Where creativity meets excellence"</p>
           <h1 className="font-['Playfair_Display'] text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">Kanha Studio</span>
           </h1>
           <p className="text-xl md:text-2xl midnight-blue/80 mb-8 max-w-3xl mx-auto">
-            Where creativity meets devotion. We craft divine designs that speak to the soul.
+            Where creativity meets excellence. We craft thoughtful designs that elevate your brand.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/portfolio">

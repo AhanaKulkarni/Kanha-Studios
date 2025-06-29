@@ -9,7 +9,7 @@ const About = () => {
     <section className="min-h-screen py-20 relative pt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="sanskrit-quote text-sm mb-4">"योगः कर्मसु कौशलम्" - Excellence in Action</p>
+          <p className="sanskrit-quote text-sm mb-4">"Excellence in Action"</p>
           <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Our Journey</h2>
           <p className="text-lg midnight-blue/70 max-w-2xl mx-auto">
             Born from the sacred lands of Vrindavan, Kanha Studio embodies the perfect harmony between ancient wisdom and modern creativity.

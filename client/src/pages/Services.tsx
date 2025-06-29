@@ -9,42 +9,42 @@ const Services = () => {
     {
       icon: '🎨',
       title: 'Brand Identity',
-      description: 'Crafting divine brand identities that resonate with souls and capture the essence of your vision.',
+      description: 'Creating powerful brand identities that capture your unique vision and connect with your audience.',
       features: ['Logo Design', 'Brand Guidelines', 'Visual Identity Systems', 'Brand Strategy'],
       bgColor: 'bg-peacock-green/20'
     },
     {
       icon: '💻',
       title: 'UI/UX Design',
-      description: 'Creating intuitive digital experiences that flow like a sacred river, guiding users with grace.',
+      description: 'Creating intuitive digital experiences that guide users seamlessly through your product.',
       features: ['User Interface Design', 'User Experience Research', 'Prototyping', 'Design Systems'],
       bgColor: 'bg-lotus-pink/20'
     },
     {
       icon: '🌐',
       title: 'Web Design',
-      description: 'Building digital temples that showcase your offerings with beauty, functionality, and divine purpose.',
+      description: 'Building beautiful, functional websites that showcase your offerings with purpose and elegance.',
       features: ['Responsive Websites', 'E-commerce Design', 'Landing Pages', 'CMS Integration'],
       bgColor: 'bg-soft-gold/20'
     },
     {
       icon: '🖨️',
       title: 'Print Design',
-      description: 'Transforming physical materials into works of art that carry your message with elegance and impact.',
+      description: 'Creating impactful print materials that effectively communicate your message with elegance.',
       features: ['Brochures & Flyers', 'Business Cards', 'Packaging Design', 'Marketing Materials'],
       bgColor: 'bg-peacock-green/20'
     },
     {
       icon: '📱',
       title: 'Mobile Design',
-      description: 'Crafting mobile experiences that fit perfectly in your users\' hands and hearts.',
+      description: 'Designing mobile experiences that engage users and deliver seamless functionality.',
       features: ['iOS App Design', 'Android App Design', 'Mobile Prototyping', 'App Store Assets'],
       bgColor: 'bg-lotus-pink/20'
     },
     {
       icon: '📊',
       title: 'Digital Strategy',
-      description: 'Guiding your digital journey with wisdom and strategic thinking for lasting success.',
+      description: 'Strategic planning and consultation to guide your digital transformation and growth.',
       features: ['Digital Consultation', 'Creative Direction', 'Brand Positioning', 'Growth Strategy'],
       bgColor: 'bg-soft-gold/20'
     }
@@ -54,10 +54,10 @@ const Services = () => {
     <section className="min-h-screen py-20 relative pt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="sanskrit-quote text-sm mb-4">"कर्मण्येवाधिकारस्ते" - Excellence in Service</p>
-          <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Our Sacred Services</h2>
+          <p className="sanskrit-quote text-sm mb-4">"Excellence in every creation"</p>
+          <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Our Services</h2>
           <p className="text-lg midnight-blue/70 max-w-2xl mx-auto">
-            We offer divine creative solutions that transform visions into beautiful realities.
+            We offer comprehensive creative solutions that transform visions into beautiful realities.
           </p>
         </div>
 

@@ -20,8 +20,8 @@ const Navigation = () => {
   return (
     <>
       {/* Navigation */}
-      <nav className="floating-nav fixed top-4 left-1/2 transform -translate-x-1/2 z-50 rounded-full px-8 py-4 shadow-lg">
-        <div className="flex items-center space-x-8">
+      <nav className="floating-nav fixed top-0 left-0 right-0 z-50 px-8 py-4 shadow-lg">
+        <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 relative">
             <span className="peacock-feather text-peacock-green">🕉️</span>
             <span className="font-['Playfair_Display'] font-bold text-xl midnight-blue">Kanha Studio</span>

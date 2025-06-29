@@ -49,14 +49,14 @@ function App() {
                 <span className="font-['Playfair_Display'] font-bold text-2xl">Kanha Studio</span>
               </div>
               <p className="sanskrit-quote text-vrindavan-beige/80 text-lg italic mb-6">
-                "Design is devotion. Every pixel, a prayer."
+                "Design is excellence. Every pixel, perfected."
               </p>
               <p className="text-vrindavan-beige/60 mb-8">
-                Crafting divine designs that touch hearts and transform businesses.
+                Crafting thoughtful designs that elevate brands and transform businesses.
               </p>
               <div className="border-t border-white/20 pt-6">
                 <p className="text-sm text-vrindavan-beige/50">
-                  © 2024 Kanha Studio. All rights reserved. Made with divine love in Vrindavan.
+                  © 2024 Kanha Studio. All rights reserved. Made with care in Vrindavan.
                 </p>
               </div>
             </div>

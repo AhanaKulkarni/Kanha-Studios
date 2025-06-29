@@ -68,10 +68,10 @@ const Contact = () => {
     <section className="min-h-screen py-20 relative pt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="sanskrit-quote text-sm mb-4">"सर्वे भवन्तु सुखिनः" - May All Beings Be Happy</p>
+          <p className="sanskrit-quote text-sm mb-4">"Creating excellence together"</p>
           <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Connect with Us</h2>
           <p className="text-lg midnight-blue/70 max-w-2xl mx-auto">
-            Ready to embark on a divine creative journey? Let's create something beautiful together.
+            Ready to start your creative project? Let's create something beautiful together.
           </p>
         </div>
 
@@ -192,7 +192,7 @@ const Contact = () => {
                   disabled={contactMutation.isPending}
                   className="w-full bg-peacock-green text-white py-4 hover:bg-peacock-green/90 transition-colors font-medium"
                 >
-                  {contactMutation.isPending ? 'Sending...' : 'Send Divine Message'}
+                  {contactMutation.isPending ? 'Sending...' : 'Send Message'}
                 </Button>
               </form>
             </Form>

@@ -80,10 +80,10 @@ const Portfolio = () => {
     <section className="min-h-screen py-20 relative pt-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="sanskrit-quote text-sm mb-4">"शिवं शिवकरं शांतं" - Beautiful, Benevolent, Peaceful</p>
-          <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Divine Creations</h2>
+          <p className="sanskrit-quote text-sm mb-4">"Beautiful, thoughtful design"</p>
+          <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold gradient-text mb-6">Our Work</h2>
           <p className="text-lg midnight-blue/70 max-w-2xl mx-auto">
-            A glimpse into our sacred portfolio of transformative designs that have touched hearts and elevated brands.
+            A showcase of our creative portfolio featuring transformative designs that elevate brands and engage audiences.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ const Portfolio = () => {
 
         <div className="text-center mt-12">
           <button className="bg-peacock-green text-white px-8 py-4 rounded-full hover:bg-peacock-green/90 transition-colors shadow-lg">
-            Start Your Divine Project
+            Start Your Project
           </button>
         </div>
       </div>

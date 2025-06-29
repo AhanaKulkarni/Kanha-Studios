@@ -20,7 +20,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const submission = await storage.createContactSubmission(validation.data);
       
       res.status(201).json({ 
-        message: "Thank you for your divine message! We will connect with you soon.",
+        message: "Thank you for your message! We will connect with you soon.",
         submission: submission
       });
     } catch (error) {
