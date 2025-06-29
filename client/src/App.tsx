@@ -51,14 +51,14 @@ function App() {
                   className="h-12 w-auto"
                 />
               </div>
-              <p className="sanskrit-quote text-vrindavan-beige/80 text-lg italic mb-6">
+              <p className="text-white text-lg italic mb-6">
                 "Design is excellence. Every pixel, perfected."
               </p>
-              <p className="text-vrindavan-beige/60 mb-8">
+              <p className="text-white/80 mb-8">
                 Crafting thoughtful designs that elevate brands and transform businesses.
               </p>
               <div className="border-t border-white/20 pt-6">
-                <p className="text-sm text-vrindavan-beige/50">
+                <p className="text-sm text-white/60">
                   © 2024 Kanha Studio. All rights reserved. Made with care in Vrindavan.
                 </p>
               </div>
