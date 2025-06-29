@@ -28,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium midnight-blue mb-1">Studio Location</h4>
-                    <p className="midnight-blue/70">Vrindavan, Mathura<br />Uttar Pradesh, India 281121</p>
+                    <p className="midnight-blue/70">Mumbai<br />Maharashtra, India 400092</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium midnight-blue mb-1">Email</h4>
-                    <p className="midnight-blue/70">hello@kanhastudio.com<br />projects@kanhastudio.com</p>
+                    <p className="midnight-blue/70">kanhaastudio@gmail.com<br />projects@kanhastudio.online</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
