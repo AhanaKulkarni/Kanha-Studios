@@ -123,7 +123,6 @@ Changelog:
 - June 29, 2025. Integrated custom logo (peacock feather design)
 - June 29, 2025. Added social media links (Instagram, WhatsApp)
 - June 29, 2025. Removed contact form per user request
-- June 29, 2025. Updated homepage with custom cover photo and restructured layout
 ```
 
 ## User Preferences
