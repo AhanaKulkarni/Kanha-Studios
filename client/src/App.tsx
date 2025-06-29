@@ -45,8 +45,11 @@ function App() {
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center">
               <div className="flex items-center justify-center space-x-2 mb-4">
-                <span className="text-peacock-green">🕉️</span>
-                <span className="font-['Playfair_Display'] font-bold text-2xl">Kanha Studio</span>
+                <img 
+                  src="/assets/logo.png" 
+                  alt="Kanha Studios Logo" 
+                  className="h-8 w-auto filter brightness-0 invert"
+                />
               </div>
               <p className="sanskrit-quote text-vrindavan-beige/80 text-lg italic mb-6">
                 "Design is excellence. Every pixel, perfected."

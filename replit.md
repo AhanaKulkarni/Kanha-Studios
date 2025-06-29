@@ -118,10 +118,18 @@ Kanha Studio is a modern full-stack web application for a creative design studio
 ```
 Changelog:
 - June 29, 2025. Initial setup
+- June 29, 2025. Updated to professional tone - removed excessive spiritual language
+- June 29, 2025. Added full-width navigation bar
+- June 29, 2025. Integrated custom logo (peacock feather design)
+- June 29, 2025. Added social media links (Instagram, WhatsApp)
+- June 29, 2025. Removed contact form per user request
 ```
 
 ## User Preferences
 
 ```
 Preferred communication style: Simple, everyday language.
+Design preferences: Professional tone, less spiritual language, Krishna-inspired colors maintained.
+Contact: No contact form needed, social media integration preferred.
+Logo: Custom peacock feather logo provided by user.
 ```
