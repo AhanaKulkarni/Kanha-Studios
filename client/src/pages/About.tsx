@@ -27,16 +27,15 @@ const About = () => {
           <div>
             <h3 className="font-['Playfair_Display'] text-3xl font-semibold midnight-blue mb-6">The Sacred Beginning</h3>
             <p className="midnight-blue/80 mb-6 leading-relaxed">
-            Kanha Studio was founded by Ahana Kulkarni as a quiet rebellion against soulless design.</p>
+              Kanha Studio was founded by Ahana Kulkarni as a quiet rebellion against soulless design.
+            </p>
             <p className="midnight-blue/80 mb-6 leading-relaxed">
-Inspired by the grace and depth of Kanha — not in image, but in spirit — our studio blends creativity with emotion, strategy with soul. We believe design should not just look good, but feel right.
-Born from late nights, deep feelings, and a love for storytelling, Kanha Studio is where pixels carry purpose. From branding to interfaces, every detail we craft is intentional — soft, powerful, and deeply human.
-                      
-                      <br>
-We don’t just design.
-We create work that moves.
-
-Welcome to Kanha Studio — where design meets devotion.  </br></p>
+              Inspired by the grace and depth of Kanha — not in image, but in spirit — our studio blends creativity with emotion, strategy with soul. We believe design should not just look good, but feel right. <br />
+              Born from late nights, deep feelings, and a love for storytelling, Kanha Studio is where pixels carry purpose. From branding to interfaces, every detail we craft is intentional — soft, powerful, and deeply human. <br /><br />
+              We don’t just design. <br />
+              We create work that moves. <br /><br />
+              Welcome to Kanha Studio — where design meets devotion.
+            </p>
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-lotus-pink/20 rounded-full flex items-center justify-center">
                 ❤️
