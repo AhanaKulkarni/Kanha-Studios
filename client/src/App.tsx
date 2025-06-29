@@ -48,7 +48,7 @@ function App() {
                 <img 
                   src="/assets/logo.png" 
                   alt="Kanha Studios Logo" 
-                  className="h-8 w-auto filter brightness-0 invert"
+                  className="h-8 w-auto"
                 />
               </div>
               <p className="sanskrit-quote text-vrindavan-beige/80 text-lg italic mb-6">
