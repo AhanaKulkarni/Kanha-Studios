@@ -37,7 +37,7 @@ function App() {
         <Router />
         
         {/* Footer */}
-        <footer className="bg-midnight-blue text-white py-12 relative overflow-hidden">
+        <footer className="bg-gray-800 text-white py-12 relative overflow-hidden">
           <div className="absolute inset-0 opacity-5">
             <div className="text-9xl absolute top-4 right-4">🕉️</div>
             <div className="text-6xl absolute bottom-4 left-4">🪷</div>
