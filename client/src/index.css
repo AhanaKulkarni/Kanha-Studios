@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(245, 58%, 51%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+
+  /* Krishna-inspired colors */
+  --midnight-blue: hsl(245, 58%, 51%);
+  --vrindavan-beige: hsl(48, 47%, 94%);
+  --peacock-green: hsl(179, 67%, 29%);
+  --lotus-pink: hsl(348, 60%, 81%);
+  --soft-gold: hsl(51, 66%, 53%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(245, 58%, 51%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    cursor: none !important;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background: linear-gradient(135deg, hsl(48, 47%, 94%) 0%, hsl(50, 50%, 96%) 100%);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .cursor {
+    @apply fixed w-5 h-5 rounded-full pointer-events-none z-[9999];
+    background: radial-gradient(circle, hsla(245, 58%, 51%, 0.8) 0%, hsla(245, 58%, 51%, 0.2) 70%);
+    box-shadow: 0 0 20px hsla(245, 58%, 51%, 0.3);
+    transition: transform 0.1s ease;
+  }
+
+  .cursor-trail {
+    @apply fixed w-2 h-2 rounded-full pointer-events-none z-[9998];
+    background: hsla(245, 58%, 51%, 0.4);
+  }
+
+  .flute-watermark {
+    @apply absolute opacity-[0.03] pointer-events-none;
+    right: -50px;
+    top: 20%;
+    transform: rotate(15deg);
+    font-size: 200px;
+    color: hsl(245, 58%, 51%);
+  }
+
+  .peacock-feather {
+    @apply absolute opacity-60;
+    top: -10px;
+    left: -5px;
+    font-size: 14px;
+    color: hsl(179, 67%, 29%);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(245, 58%, 51%) 0%, hsl(179, 67%, 29%) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .portfolio-item {
+    transition: all 0.3s ease;
+  }
+
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+
+  .dholak-pulse {
+    animation: pulse 2s infinite;
+  }
+
+  .sanskrit-quote {
+    font-style: italic;
+    color: hsl(245, 58%, 51%);
+    opacity: 0.7;
+  }
+
+  .floating-nav {
+    backdrop-filter: blur(20px);
+    background: hsla(48, 47%, 94%, 0.95);
+    border: 1px solid hsla(245, 58%, 51%, 0.1);
+  }
+
+  .hero-animation {
+    animation: fadeInUp 1s ease-out;
+  }
+
+  .midnight-blue {
+    color: hsl(245, 58%, 51%);
+  }
+
+  .bg-midnight-blue {
+    background-color: hsl(245, 58%, 51%);
+  }
+
+  .vrindavan-beige {
+    color: hsl(48, 47%, 94%);
+  }
+
+  .bg-vrindavan-beige {
+    background-color: hsl(48, 47%, 94%);
+  }
+
+  .peacock-green {
+    color: hsl(179, 67%, 29%);
+  }
+
+  .bg-peacock-green {
+    background-color: hsl(179, 67%, 29%);
+  }
+
+  .lotus-pink {
+    color: hsl(348, 60%, 81%);
+  }
+
+  .bg-lotus-pink {
+    background-color: hsl(348, 60%, 81%);
+  }
+
+  .soft-gold {
+    color: hsl(51, 66%, 53%);
+  }
+
+  .bg-soft-gold {
+    background-color: hsl(51, 66%, 53%);
+  }
+
+  .hover\\:bg-peacock-green:hover {
+    background-color: hsl(179, 67%, 29%);
+  }
+
+  .hover\\:text-peacock-green:hover {
+    color: hsl(179, 67%, 29%);
+  }
+
+  .border-midnight-blue {
+    border-color: hsl(245, 58%, 51%);
+  }
+
+  .focus\\:ring-peacock-green:focus {
+    --tw-ring-color: hsl(179, 67%, 29%);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
