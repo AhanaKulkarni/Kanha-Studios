@@ -19,7 +19,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              src="https://github.com/AhanaKulkarni/Kanha-Studios/blob/main/attached_assets/ChatGPT%20Image%20Jun%2029,%202025,%2006_21_27%20PM_1751202008119.png?raw=true" 
               alt="Creative workspace" 
               className="rounded-2xl shadow-xl w-full h-auto"
             />
