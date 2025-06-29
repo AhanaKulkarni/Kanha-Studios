@@ -26,7 +26,7 @@ const Navigation = () => {
             <img 
               src="/assets/logo.png" 
               alt="Kanha Studios Logo" 
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </Link>
           <div className="hidden md:flex space-x-6">
