@@ -8,20 +8,30 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Cover Image Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <img 
-          src="/assets/kanha-cover.png" 
-          alt="Kanha Studio - Creative Design Studio" 
-          className="absolute inset-0 w-full h-full object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-black/10"></div>
-      </section>
+      {/* Hero Section with Logo and Content */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        {/* Background Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-vrindavan-beige via-lotus-pink/20 to-soft-gold/30"></div>
+        
+        {/* Decorative Elements */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="text-9xl absolute top-16 left-16 text-peacock-green">🕉️</div>
+          <div className="text-6xl absolute top-32 right-32 text-midnight-blue">🪷</div>
+          <div className="text-4xl absolute bottom-32 left-32 text-lotus-pink">🦚</div>
+          <div className="text-7xl absolute bottom-16 right-16 text-soft-gold">🌸</div>
+        </div>
 
-      {/* Content Section Below Image */}
-      <section className="bg-gradient-to-br from-vrindavan-beige via-lotus-pink/20 to-soft-gold/30 py-20">
-        <div className="container mx-auto px-6 text-center">
+        <div className="container mx-auto px-6 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
+            {/* Centered Logo */}
+            <div className="mb-12">
+              <img 
+                src="/assets/kanha-cover.png" 
+                alt="Kanha Studio - Creative Design Studio" 
+                className="mx-auto w-96 md:w-[500px] h-auto object-contain"
+              />
+            </div>
+            
             <p className="text-xl md:text-2xl midnight-blue/80 mb-12 font-light leading-relaxed">
               Where creativity meets excellence. We craft thoughtful designs that elevate your brand.
             </p>
