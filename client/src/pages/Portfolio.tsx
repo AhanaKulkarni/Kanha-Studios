@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -73,13 +74,13 @@ const Portfolio = () => {
   const filters = [
     { key: 'all', label: 'All Work' },
     { key: 'branding', label: 'Branding' },
-    { key: 'web', label: 'Web Design' },
-    { key: 'mobile', label: 'Mobile' },
-    { key: 'print', label: 'Print' }
+    { key: 'Web UI/UX', label: 'Web UI/UX' },
+    { key: 'Graphics', label: 'Graphics' },
+    { key: 'web', label: 'Web Design' }
   ];
 
-  const filteredItems = activeFilter === 'all' 
-    ? portfolioItems 
+  const filteredItems = activeFilter === 'all'
+    ? portfolioItems
     : portfolioItems.filter(item => item.category === activeFilter);
 
   return (
@@ -137,6 +138,8 @@ const Portfolio = () => {
             </a>
           ))}
         </div>
+
+        {/* Start Project Button */}
         <div className="text-center mt-12">
           <Link to="/contact">
             <button className="bg-peacock-green text-white px-8 py-4 rounded-full hover:bg-peacock-green/90 transition-colors shadow-lg">
@@ -144,6 +147,7 @@ const Portfolio = () => {
             </button>
           </Link>
         </div>
+      </div>
     </section>
   );
 };
