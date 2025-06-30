@@ -7,56 +7,56 @@ const Portfolio = () => {
     document.title = "Portfolio - Kanha Studio";
   }, []);
 
-const portfolioItems = [
-  {
-    id: 1,
-    category: 'branding',
-    title: 'Cannister',
-    description: 'Complete packaging design',
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-    tag: 'Branding',
-    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
-    link: 'https://www.figma.com/design/rIaJLJCDolc8BW7nAvgdHs/cannister-project?node-id=0-1&t=SsFg3eqk7ynvEk2Y-1'
-  },
+  const portfolioItems = [
     {
-    id: 2,
-    category: 'Web UI/UX',
-    title: 'CooK-Keys',
-    description: 'Complete Website Design',
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-    tag: 'Branding',
-    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
-    link: 'https://www.figma.com/design/v0SszCC0z1R4wrgPHOhGIV/Proj-4?node-id=1-296&t=5DuTvtXFaEOXyhuu-1'
+      id: 1,
+      category: 'branding',
+      title: 'Cannister',
+      description: 'Complete packaging design',
+      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+      tag: 'Branding',
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://www.figma.com/design/rIaJLJCDolc8BW7nAvgdHs/cannister-project?node-id=0-1&t=SsFg3eqk7ynvEk2Y-1'
     },
     {
-    id: 3,
-    category: 'Web UI/UX',
-    title: 'ChatApp',
-    description: 'Complete Website Design',
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-    tag: 'Branding',
-    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
-    link: 'hhttps://www.figma.com/proto/VjAZmiGUlSkeCr99zOzD69/Practice--Chat-App-Homepage-Design--Copy-?page-id=107%3A2&node-id=8493-106&viewport=618%2C143%2C0.21&t=leFMiehBE4ll9Yhe-1&scaling=min-zoom&content-scaling=fixed'
+      id: 2,
+      category: 'Web UI/UX',
+      title: 'CooK-Keys',
+      description: 'Complete Website Design',
+      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+      tag: 'Branding',
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://www.figma.com/design/v0SszCC0z1R4wrgPHOhGIV/Proj-4?node-id=1-296&t=5DuTvtXFaEOXyhuu-1'
     },
     {
-    id: 4,
-    category: 'web',
-    title: 'Aetheron AI Website',
-    description: 'Futuristic, modular site with clean UX',
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-    tag: 'Branding',
-    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
-    link: 'https://www.aetheronai.online/'
+      id: 3,
+      category: 'Web UI/UX',
+      title: 'ChatApp',
+      description: 'Complete Website Design',
+      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+      tag: 'Branding',
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://www.figma.com/proto/VjAZmiGUlSkeCr99zOzD69/Practice--Chat-App-Homepage-Design--Copy-?page-id=107%3A2&node-id=8493-106&viewport=618%2C143%2C0.21&t=leFMiehBE4ll9Yhe-1&scaling=min-zoom&content-scaling=fixed'
     },
     {
-    id: 5,
-    category: 'Graphics',
-    title: 'Graphic Designs',
-    description: 'Various Creative Graphic Designs',
-    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-    tag: 'Branding',
-    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
-    link: 'https://drive.google.com/drive/folders/1Jq-ltSzQSXwfN7vA-7Z4bUZk_tKO9rg5?usp=sharing'
+      id: 4,
+      category: 'web',
+      title: 'Aetheron AI Website',
+      description: 'Futuristic, modular site with clean UX',
+      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+      tag: 'Branding',
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://www.aetheronai.online/'
+    },
+    {
+      id: 5,
+      category: 'Graphics',
+      title: 'Graphic Designs',
+      description: 'Various Creative Graphic Designs',
+      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+      tag: 'Branding',
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://drive.google.com/drive/folders/1Jq-ltSzQSXwfN7vA-7Z4bUZk_tKO9rg5?usp=sharing'
     },
     {
       id: 6,
@@ -65,7 +65,8 @@ const portfolioItems = [
       description: 'Visioneers Entrepreneurship Magazine',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
       tag: 'Graphic Design',
-      tagColor: 'https://www.canva.com/design/DAGaOFgJkXU/ZEZi5p6uk3TkzVrY0XsONg/edit?utm_content=DAGaOFgJkXU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+      tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+      link: 'https://www.canva.com/design/DAGaOFgJkXU/ZEZi5p6uk3TkzVrY0XsONg/edit?utm_content=DAGaOFgJkXU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     }
   ];
 
@@ -112,9 +113,12 @@ const portfolioItems = [
         {/* Portfolio Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredItems.map((item) => (
-            <div
+            <a
               key={item.id}
-              className="portfolio-item bg-white/60 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="portfolio-item bg-white/60 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 block"
             >
               <img
                 src={item.image}
@@ -130,7 +134,7 @@ const portfolioItems = [
                   {item.tag}
                 </span>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
