@@ -137,13 +137,13 @@ const Portfolio = () => {
             </a>
           ))}
         </div>
-
         <div className="text-center mt-12">
-          <button className="bg-peacock-green text-white px-8 py-4 rounded-full hover:bg-peacock-green/90 transition-colors shadow-lg">
-            Start Your Project
-          </button>
+          <Link to="/contact">
+            <button className="bg-peacock-green text-white px-8 py-4 rounded-full hover:bg-peacock-green/90 transition-colors shadow-lg">
+              Start Your Project
+            </button>
+          </Link>
         </div>
-      </div>
     </section>
   );
 };
