@@ -7,60 +7,65 @@ const Portfolio = () => {
     document.title = "Portfolio - Kanha Studio";
   }, []);
 
-  const portfolioItems = [
+const portfolioItems = [
+  {
+    id: 1,
+    category: 'branding',
+    title: 'Cannister',
+    description: 'Complete packaging design',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+    tag: 'Branding',
+    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+    link: 'https://www.figma.com/design/rIaJLJCDolc8BW7nAvgdHs/cannister-project?node-id=0-1&t=SsFg3eqk7ynvEk2Y-1'
+  },
     {
-      id: 1,
-      category: 'branding',
-      title: 'Cannister',
-      description: 'Complete packaging design',
-      image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Branding',
-      tagColor: 'bg-lotus-pink/20 text-lotus-pink'
+    id: 2,
+    category: 'Web UI/UX',
+    title: 'CooK-Keys',
+    description: 'Complete Website Design',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+    tag: 'Branding',
+    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+    link: 'https://www.figma.com/design/v0SszCC0z1R4wrgPHOhGIV/Proj-4?node-id=1-296&t=5DuTvtXFaEOXyhuu-1'
     },
     {
-      id: 2,
-      category: 'web',
-      title: 'Mindful Meditation',
-      description: 'Responsive web design for wellness platform',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Web Design',
-      tagColor: 'bg-peacock-green/20 text-peacock-green'
+    id: 3,
+    category: 'Web UI/UX',
+    title: 'ChatApp',
+    description: 'Complete Website Design',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+    tag: 'Branding',
+    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+    link: 'hhttps://www.figma.com/proto/VjAZmiGUlSkeCr99zOzD69/Practice--Chat-App-Homepage-Design--Copy-?page-id=107%3A2&node-id=8493-106&viewport=618%2C143%2C0.21&t=leFMiehBE4ll9Yhe-1&scaling=min-zoom&content-scaling=fixed'
     },
     {
-      id: 3,
-      category: 'mobile',
-      title: 'Devotion Daily',
-      description: 'Spiritual practice mobile application',
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Mobile',
-      tagColor: 'bg-soft-gold/20 text-soft-gold'
+    id: 4,
+    category: 'web',
+    title: 'Aetheron AI Website',
+    description: 'Futuristic, modular site with clean UX',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+    tag: 'Branding',
+    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+    link: 'https://www.aetheronai.online/'
     },
     {
-      id: 4,
-      category: 'print',
-      title: 'Heritage Festival',
-      description: 'Event branding and promotional materials',
-      image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Print',
-      tagColor: 'bg-lotus-pink/20 text-lotus-pink'
-    },
-    {
-      id: 5,
-      category: 'branding',
-      title: 'Pure Essence',
-      description: 'Organic skincare brand identity',
-      image: 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Branding',
-      tagColor: 'bg-lotus-pink/20 text-lotus-pink'
+    id: 5,
+    category: 'Graphics',
+    title: 'Graphic Designs',
+    description: 'Various Creative Graphic Designs',
+    image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+    tag: 'Branding',
+    tagColor: 'bg-lotus-pink/20 text-lotus-pink',
+    link: 'https://drive.google.com/drive/folders/1Jq-ltSzQSXwfN7vA-7Z4bUZk_tKO9rg5?usp=sharing'
     },
     {
       id: 6,
-      category: 'web',
-      title: 'Artisan Marketplace',
-      description: 'E-commerce platform for handcrafted goods',
+      category: 'Graphics',
+      title: 'Magazine Graphics',
+      description: 'Visioneers Entrepreneurship Magazine',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      tag: 'Web Design',
-      tagColor: 'bg-peacock-green/20 text-peacock-green'
+      tag: 'Graphic Design',
+      tagColor: 'https://www.canva.com/design/DAGaOFgJkXU/ZEZi5p6uk3TkzVrY0XsONg/edit?utm_content=DAGaOFgJkXU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     }
   ];
 
