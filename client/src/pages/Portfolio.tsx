@@ -11,8 +11,8 @@ const Portfolio = () => {
     {
       id: 1,
       category: 'branding',
-      title: 'Sacred Lotus Spa',
-      description: 'Complete brand identity and packaging design',
+      title: 'Cannister',
+      description: 'Complete packaging design',
       image: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
       tag: 'Branding',
       tagColor: 'bg-lotus-pink/20 text-lotus-pink'
