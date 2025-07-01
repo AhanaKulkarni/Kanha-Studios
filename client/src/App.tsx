@@ -59,7 +59,7 @@ function App() {
               </p>
               <div className="border-t border-white/20 pt-6">
                 <p className="text-sm text-white/60">
-                  © 2024 Kanha Studio. All rights reserved. Made with care in Vrindavan.
+                  © 2025 Kanha Studio. All rights reserved. Made with care in Mumbai. 
                 </p>
               </div>
             </div>
